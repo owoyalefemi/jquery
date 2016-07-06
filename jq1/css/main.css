@@ -1,0 +1,165 @@
+/**
+ * Variable Overrides.
+ *
+ * Modify this file to override the Bootstrap Framework variables. You can copy
+ * these variables directly from ../bootstrap/less/variables.less to this file.
+ */
+/* ==========================================================================
+   Femi Yale
+   ========================================================================== */
+footer {
+  background-color: #1b1d1d;
+  color: #ffffff;
+  padding: 0 0 40px;
+  font-size: 18px;
+}
+footer .footer {
+  border: none;
+  margin-top: 0;
+}
+footer h3 {
+  margin-bottom: 25px;
+}
+footer .social-links {
+  padding-left: 0;
+}
+footer .social-links h3 {
+  margin-bottom: 25px;
+  margin-right: 20px;
+  float: left;
+}
+footer .social-links ul.social-follow {
+  float: left;
+  margin-top: 20px;
+}
+footer .secondary-menu,
+footer .newsletter {
+  border-left: 1px solid rgba(255, 255, 255, 0.25);
+  height: 250px;
+}
+footer .channels-list {
+  padding: 0;
+  position: relative;
+  float: left;
+  width: 100%;
+}
+footer .channels-list ul.channels-watch-list {
+  border-radius: 15px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,d2d5d8+100 */
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 0%, #d2d5d8 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffffff 0%, #d2d5d8 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ffffff 0%, #d2d5d8 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#d2d5d8', GradientType=0);
+  /* IE6-9 */
+  list-style: none;
+}
+footer .channels-list ul.channels-watch-list li {
+  padding: 20px 0;
+  border-right: 1px solid rgba(0, 0, 0, 0.25);
+}
+footer .channels-list ul.channels-watch-list li:last-child {
+  border-right: none;
+}
+footer .channels-list ul.channels-watch-list li .global {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.5rem;
+  text-align: center;
+}
+footer .channels-list ul.channels-watch-list li .channel-item {
+  background-image: url('../images/sprite.png');
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  padding: 10px 0;
+  position: relative;
+}
+footer .channels-list ul.channels-watch-list li .channel-item.sky {
+  background-position: 20px 0;
+}
+footer .channels-list ul.channels-watch-list li .channel-item.bt {
+  background-position: 20px -35px;
+}
+footer .channels-list ul.channels-watch-list li .channel-item.virgin-media {
+  background-position: 20px -70px;
+}
+footer .channels-list ul.channels-watch-list li .channel-item.talktalk {
+  background-position: 5px -100px;
+}
+footer .nav.secondary {
+  width: 100%;
+}
+footer .nav.secondary > li {
+  padding: 5px 0;
+  width: 50%;
+  float: left;
+}
+footer .nav.secondary > li > a:hover,
+footer .nav.secondary > li > a:focus {
+  background-color: transparent;
+}
+footer a {
+  color: #ffffff;
+}
+footer .other-channels ul li {
+  padding: 0 10px 0 0;
+}
+footer .other-channels ul li:last-child {
+  padding: 0;
+}
+footer .other-channels ul li > a {
+  background-color: #292927;
+  padding: 30px 15px 10px;
+  height: 180px;
+}
+footer .other-channels ul li:last-child > a {
+  margin-right: 0;
+}
+footer .other-channels .other-channel {
+  width: 100%;
+  display: block;
+}
+footer .other-channels h5 {
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  left: 0;
+}
+footer ul.secondary {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+footer .secondary li {
+  display: block;
+  float: none;
+}
+footer .secondary li a {
+  padding: 0;
+  font-size: 14px;
+}
+footer .newsletter-signup {
+  float: left;
+  width: 100%;
+}
+footer .newsletter-signup input {
+  background-color: transparent;
+  border: #ffa200 1px solid;
+  border-radius: 15px;
+  padding: 5px 20px 10px;
+}
+footer .newsletter-signup a.newsletter-button {
+  background-color: #ffa200;
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin: 0 0 0 10px;
+}
+
+
+.anotherone #div32{
+      display: none;
+}
